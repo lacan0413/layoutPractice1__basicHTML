@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="本網頁是由Work Athletics改編而成, 純粹用於學習, 而非商業作用">
+    <title>首頁 | 長崎球館</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="icon" href="../gallery/websiteIcon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navContainer">
+            <div class="navLogo">
+                <img src="../gallery/1home/logo.png" alt="長崎球館">
+            </div>
+            <div class="navText">
+                <div class="navList">
+                    <ul>
+                        <li><a href="#">首頁</a></li>
+                        <li><a href="../2training/training.html">團體訓練</a></li>
+                        <li><a href="../3kids/kids.html">學童籃球課程</a></li>
+                        <li><a href="../4facility-rental/facility-rental.html">場地出租</a></li>
+                        <li><a href="../5clubteams/clubteams.html">球隊</a></li>
+                        <li><a href="../6contact/contact.html">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <div class="navAdd">
+                    <p>台北市中正區中正路100巷100號</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="mainContainer">
+            <div class="mainRegion1">
+                <div class="mr1Logo">
+                    <img src="../gallery/1home/mainRegion1Logo.png" alt="">
+                </div>
+            </div>
+            <div class="mainRegion2">
+                <div class="mr2Text">
+                    <p><span class="mr2TextSpan1">長崎球館 </span>致力於成為一個適合任何喜愛籃球的年齡層<br><span
+                            class="mr2TextSpan2">努力</span>、<span class="mr2TextSpan3">矜持</span>以及學習<span
+                            class="mr2TextSpan4">團隊合作</span>的地方!</p>
+                </div>
+            </div>
+            <div class="mainRegion3">
+                <div class="mainRegion3BackGround">
+                    <div class="mr3Text">
+                        <h1>球館開放時間</h1>
+                        <p>周五 下午兩點到十點(免費入館)</p>
+                        <p>周一到周三 下午兩點到晚上十點</p>
+                        <p>周四 下午一點到十點</p>
+                        <p>周六、周日 早上十點到晚上十點</p>
+                        <p><i>特殊節日開館時間於前一周公告</i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainRegion4">
+                <div class="mr4Text">
+                    <p>敬請來電預約您想租用的<span>場地</span>以及<span>籃球課程</span></p>
+                    <p>我們將有服務人員與您接洽</p>
+                    <p>(02) 2222-2222</p>
+                </div>
+            </div>
+            <div class="mainRegion5">
+                <div class="mr5Box">
+                    <div class="mr5pic1"><img src="../gallery/1home/mainRegion5_1.png" alt="picture1">
+                        <div class="mr5picGrey"></div>
+                    </div>
+                    <div class="mr5pic2"><img src="../gallery/1home/mainRegion5_2.png" alt="picture2">
+                        <div class="mr5picGrey"></div>
+                    </div>
+                    <div class="mr5pic3"><img src="../gallery/1home/mainRegion5_3.png" alt="picture3">
+                        <div class="mr5picGrey"></div>
+                    </div>
+                    <div class="mr5pic4"><img src="../gallery/1home/mainRegion5_4.png" alt="picture4">
+                        <div class="mr5picGrey"></div>
+                    </div>
+                    <div class="mr5pic5"><img src="../gallery/1home/mainRegion5_5.png" alt="picture5">
+                        <div class="mr5picGrey"></div>
+                    </div>
+                    <div class="mr5pic6"><img src="../gallery/1home/mainRegion5_6.png" alt="picture6">
+                        <div class="mr5picGrey"></div>
+                    </div>
+                    <div class="mr5pic7"><img src="../gallery/1home/mainRegion5_7.png" alt="picture7">
+                        <div class="mr5picGrey"></div>
+                    </div>
+                    <div class="mr5pic8"><img src="../gallery/1home/mainRegion5_8.png" alt="picture8">
+                        <div class="mr5picGrey"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        $(".mainRegion5 .mr5Box div:nth-child(1) img").mouseenter(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(1) .mr5picGrey").css("z-index", "2");
+        });
+        $(".mainRegion5 .mr5Box div:nth-child(1) .mr5picGrey").mouseleave(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(1) .mr5picGrey").css("z-index", "0")
+        });
+
+        $(".mainRegion5 .mr5Box div:nth-child(2) img").mouseenter(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(2) .mr5picGrey").css("z-index", "2");
+        });
+        $(".mainRegion5 .mr5Box div:nth-child(2) .mr5picGrey").mouseleave(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(2) .mr5picGrey").css("z-index", "0")
+        });
+
+        $(".mainRegion5 .mr5Box div:nth-child(3) img").mouseenter(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(3) .mr5picGrey").css("z-index", "2");
+        });
+        $(".mainRegion5 .mr5Box div:nth-child(3) .mr5picGrey").mouseleave(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(3) .mr5picGrey").css("z-index", "0")
+        });
+
+        $(".mainRegion5 .mr5Box div:nth-child(4) img").mouseenter(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(4) .mr5picGrey").css("z-index", "2");
+        });
+        $(".mainRegion5 .mr5Box div:nth-child(4) .mr5picGrey").mouseleave(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(4) .mr5picGrey").css("z-index", "0")
+        });
+
+        $(".mainRegion5 .mr5Box div:nth-child(5) img").mouseenter(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(5) .mr5picGrey").css("z-index", "2");
+        });
+        $(".mainRegion5 .mr5Box div:nth-child(5) .mr5picGrey").mouseleave(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(5) .mr5picGrey").css("z-index", "0")
+        });
+
+        $(".mainRegion5 .mr5Box div:nth-child(6) img").mouseenter(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(6) .mr5picGrey").css("z-index", "2");
+        });
+        $(".mainRegion5 .mr5Box div:nth-child(6) .mr5picGrey").mouseleave(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(6) .mr5picGrey").css("z-index", "0")
+        });
+
+        $(".mainRegion5 .mr5Box div:nth-child(7) img").mouseenter(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(7) .mr5picGrey").css("z-index", "2");
+        });
+        $(".mainRegion5 .mr5Box div:nth-child(7) .mr5picGrey").mouseleave(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(7) .mr5picGrey").css("z-index", "0")
+        });
+
+        $(".mainRegion5 .mr5Box div:nth-child(8) img").mouseenter(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(8) .mr5picGrey").css("z-index", "2");
+        });
+        $(".mainRegion5 .mr5Box div:nth-child(8) .mr5picGrey").mouseleave(function () {
+            $(".mainRegion5 .mr5Box div:nth-child(8) .mr5picGrey").css("z-index", "0")
+        });
+
+        // $(".mainRegion5 .mr5Box div:nth-child(x) img").mouseenter(function () {
+        //     $(".mainRegion5 .mr5Box div:nth-child(x) .mr5picGrey").css("z-index", "2");
+        // })
+        // $(".mainRegion5 .mr5Box div:nth-child(x) .mr5picGrey").mouseleave(function () {
+        //     $(".mainRegion5 .mr5Box div:nth-child(x) .mr5picGrey").css("z-index", "0")
+        // })
+
+        //////////////////////////////////////////////////////////////////////////////
+        // function greyEvent() {
+        //     var mr5picS = document.querySelectorAll(".mainRegion5 > .mr5Box > div");
+        //     for (var i = 0; i < mr5picS.length; i++) {
+        //         $(mr5picS[i] > img).mouseenter(function () {
+        //             $(mr5picS[i] > ".mr5picGrey").css("z-index", "2")
+        //         })
+        //     };
+        //     for (var i = 0; i < mr5picS.length; i++) {
+        //         $(mr5picS[i] > ".mr5picGrey").mouseleave(function () {
+        //             $(mr5picS[i] > ".mr5picGrey").css("z-index", "0")
+        //         })
+        //     };
+        // }
+    </script>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="formButton">
+                <button><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfogOlW8cVkfe45T8YmCXeDtw8OAUR7tbKvcugyxxomx6wh6Q/viewform"
+                        target="_blank">點選此處填寫報名表</a></button>
+            </div>
+            <div class="textRegion">
+                <div class="textRegion2">
+                    <div class="text text1">
+                        <div class="title">我們的電話</div>
+                        <div class="content">(02)2222-2222</div>
+                    </div>
+                    <div class="text text2">
+                        <div class="title">Email網址</div>
+                        <div class="content">changchigym@gymgymmail.com</div>
+                    </div>
+                    <div class="text text3">
+                        <div class="title">球館地址</div>
+                        <div class="content">台北市中正區中正路100巷100號</div>
+                    </div>
+                </div>
+                <div class="googleMap">
+                    <iframe
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDkBWRwHT-CDgrChxkRDqTreN3Q87tHs2w&q=National+Taiwan+University+Hospital"
+                        frameborder="0"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

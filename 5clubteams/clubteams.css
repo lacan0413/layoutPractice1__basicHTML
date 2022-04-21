@@ -1,0 +1,309 @@
+body{
+    font-family:'Noto Sans TC';
+}
+
+* {
+    padding: 0; 
+    margin: 0; 
+    list-style: none;
+    text-decoration: none;
+}
+
+.navContainer{
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    z-index: 10;
+}
+
+.navLogo{
+    position: relative;
+    right: 70px;
+    top:3px;
+}
+
+.navLogo img{
+    width: 83px;
+    height: 83px;
+}
+
+.navList ul{
+    white-space: nowrap;
+}
+
+.navList ul li{
+    display: inline;
+    line-height: 36px;
+    text-align: center;
+    font-weight: bold;
+    border-right: 1px solid yellow;
+    padding-right: 19px;
+    padding-left: 14px;
+}
+
+.navList ul li a{
+color:#50C4ED;
+transition: color .4s ease-in-out;
+}
+
+.navList ul li a:hover{
+    color:#FFE712
+}
+
+.navList ul li:last-child{
+    border-right: 0;
+}
+
+.navList ul li:nth-child(5) a{
+    color:#fff;
+}
+
+.navAdd{
+    color:#FFE712;
+    font-weight: bold;
+    letter-spacing:14px;
+    margin-left: 44px;
+    white-space: nowrap;
+}
+
+
+.mainRegion1{
+    width: 100%;
+    height: 400px;
+}
+
+.mainRegion1 .mr1Back{
+    width: 100%;
+    height: 410px;
+    background-image: url(../gallery/5clubteams/mainRegion1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.mainRegion1 .mr1Back .mr1BackCover{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(43, 42, 42, 0.452);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.mainRegion1 .mr1Back .mr1Text{
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    transform: translateY(90px);
+}
+
+.mainRegion1 .mr1Back .mr1Text .p1{
+ color:#FFE712;
+ font-size: 55px;
+ margin-top: 20px;
+}
+
+.mainRegion1 .mr1Back .mr1Text .p2{
+    color:#fff;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 3px 15px #8cd1eb;
+    letter-spacing: 15px;
+    margin-top: -7px;
+    margin-bottom: 10px;
+ }
+
+   .mainRegion1 .mr1Back .mr1Text .p3{
+    color:#50C4ED;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: -3px;
+}
+
+.mainRegion1 .mr1Back .mr1Text .p4{
+    color:#50C4ED;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.mainRegion2{
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainRegion2 h1{
+    font-size: 45px;
+    color:#fff;
+    text-shadow: 2px 2px 12px grey;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.mainRegion2 .gridRegion{
+    width: 1300px;
+    height: 400px;
+    box-sizing: border-box;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "a b c d";
+    grid-gap: 0.5%;
+}
+
+.gridRegion .box1{
+    width: 325px;
+    height: 300px;
+    background-image: url(../gallery/5clubteams/gridImg1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-area: a;
+    transition: .5s ease-in-out;
+}
+
+.gridRegion .box2{
+    width: 325px;
+    height: 300px;
+    background-image: url(../gallery/5clubteams/gridImg2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-area: b;
+    transition: .5s ease-in-out;
+}
+
+.gridRegion .box3{
+    width: 325px;
+    height: 300px;
+    background-image: url(../gallery/5clubteams/gridImg3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-area: c;
+    transition: .5s ease-in-out;
+}
+
+.gridRegion .box4{
+    width: 325px;
+    height: 300px;
+    background-image: url(../gallery/5clubteams/gridImg4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-area: d;
+    transition: .5s ease-in-out;
+}
+
+.gridRegion a .box1:hover{
+    transform:rotate(360deg);
+}
+
+.gridRegion a .box2:hover{
+    transform: perspective(400px) rotateX(360deg);
+}
+
+.gridRegion a .box3:hover{
+    box-shadow: inset -75px -75px 400px #000;
+}
+
+.gridRegion a .box4:hover{
+    transform: perspective(400px) rotate3d(0,1,0,-180deg)
+}
+
+footer{
+    width: 100%;
+    height: 310px;
+    background-color: #000;
+    position: relative;
+}
+
+.footerContainer .formButton{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.footerContainer .formButton button{
+    width: 554px;
+    height: 48px;
+    color:black;
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    background-color: #50C4ED;
+    border-radius: 10px;
+    border:0;
+    transition: .1s ease;
+}
+
+.footerContainer .formButton button a{
+    color:#000;
+    font-weight: bold;
+
+}
+
+.footerContainer .formButton button:hover{
+    background-color: #ffe712;
+    transform: translate(13px, 13px);
+}
+
+
+.footerContainer .textRegion{
+    width: 100%;
+    height: 205px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer .textRegion .textRegion2{
+    white-space: nowrap;
+}
+
+.footerContainer .textRegion .textRegion2 .text .title{
+    color:#50C4ED;
+    font-size: 16px;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+.footerContainer .textRegion .textRegion2 .text .content{
+    color: yellow;
+    font-size: 22px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footerContainer .textRegion .googleMap{
+    width: 380px;
+    height: 200px;
+    margin-top: 3px;
+    margin-left: 17px;
+}
+
+.footerContainer .textRegion .googleMap iframe{
+    width: 380px;
+    height: 200px;
+}
