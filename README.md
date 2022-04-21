@@ -1,6 +1,5 @@
 # 切版練習-籃球館
-網址: https://luka1901.github.io/
-layoutPractice-1-basicHTML/1home/home.html<br />
+網址: https://luka1901.github.io/layoutPractice-1-basicHTML/1home/home.html<br />
 改編自(非商用): https://www.workathleticsbasketball.com/<br />
 
 描述:<br />
